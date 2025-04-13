@@ -149,31 +149,62 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="hidden items-center gap-4 lg:flex"><button class="btn-base btn-primary px-3 py-2"
-                                type="button" aria-haspopup="dialog" aria-expanded="false"
-                                aria-controls="radix-«Rqln6bb»" data-state="closed" data-slot="drawer-trigger"
-                                data-sentry-element="DrawerPrimitive.Trigger" data-sentry-source-file="drawer.tsx"
-                                data-sentry-component="DrawerTrigger">Deposit funds</button><button
-                                class="btn-base btn-outline px-3 py-2" data-sentry-element="Button"
-                                data-sentry-source-file="Navbar.tsx" type="button" aria-haspopup="dialog"
-                                aria-expanded="false" aria-controls="radix-«R1aln6bb»" data-state="closed"
-                                data-slot="drawer-trigger" data-sentry-component="DrawerTrigger">Invite a
-                                friend</button><button type="button" id="radix-«R1qln6bb»" aria-haspopup="menu"
-                                aria-expanded="false" data-state="closed" class="relative shrink-0"
-                                data-sentry-element="DropdownMenuTrigger" data-sentry-source-file="MenuDesktop.tsx"><img
-                                    referrerPolicy="no-referrer" alt="test test" data-sentry-element="ImageUser"
-                                    data-sentry-source-file="MenuDesktop.tsx" width="38" height="38" decoding="async"
-                                    data-nimg="1" class="w-full rounded-full border border-v2-app-blue object-cover"
-                                    style="color:transparent;width:38px;height:38px"
-                                    src="#" /></button>
-                        </div>
+                        <div class="flex items-center gap-4">
+    <button id="depositBtn" class="btn-base btn-primary bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+      Deposit Funds
+    </button>
+    <button class="btn-base btn-outline border px-4 py-2 rounded">
+      Invite a Friend
+    </button>
+  </div>
+
+  <div id="overlay" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40"></div>
+
+<div id="depositModal" class="hidden fixed inset-x-0 bottom-0 z-50 mx-auto max-w-lg rounded-t-2xl border bg-white shadow-lg transition-all">
+  <div class="relative">
+    <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-black text-xl">✕</button>
+    <div class="text-center p-6 border-b">
+      <h2 class="text-lg font-bold">Deposit</h2>
+    </div>
+    <div class="p-6">
+      <form class="space-y-6">
+        <label class="block text-center font-medium text-gray-700">
+          How much would you like to deposit?
+        </label>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">€100</button>
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">€250</button>
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">€500</button>
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">€1,000</button>
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">€2,500</button>
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">€5,000</button>
+        </div>
+
+        <div>
+          <button type="button" class="w-full border px-4 py-2 rounded hover:bg-gray-100">
+            A Different Amount
+          </button>
+        </div>
+
+        <div class="pt-4 text-center">
+          <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded transition">
+            Next
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
                     </div>
                 </div>
             </div>
         </div>
         <main class="flex-1">
             <div class="absolute left-1/2 top-4 max-w-[50%] -translate-x-1/2 truncate md:hidden"
-                data-sentry-component="HackyPageTitle" data-sentry-source-file="HackyPageTitle.tsx">My Dashboard</div>
+                data-sentry-component="HackyPageTitle" data-sentry-source-file="HackyPageTitle.tsx"></div>
             <section class="xl:p-0 mb-[2px] bg-light-blue-app shadow-lynn-section" data-sentry-element="PageSection"
                 data-sentry-source-file="index.tsx">
                 <div data-state="open" class="group">
@@ -198,11 +229,7 @@
                                         started</h5>
                                     <p class="text-subtitle1">To start investing in music, you first have to fund your
                                         account. You can instantly deposit funds from your bank or using a card.</p>
-                                    <button class="btn-base btn-primary" data-sentry-element="Button"
-                                        data-sentry-source-file="MakeYourFirstDeposit.tsx" type="button"
-                                        aria-haspopup="dialog" aria-expanded="false"
-                                        aria-controls="radix-«R6r33rn5n6bb»" data-state="closed"
-                                        data-slot="drawer-trigger" data-sentry-component="DrawerTrigger">Deposit
+                                    <button id="depositBtn" class="btn-base btn-primary">Deposit
                                         funds</button>
                                 </div>
                                 <div class="relative h-fit" data-sentry-component="TheGreatSVG"
@@ -5713,6 +5740,34 @@
     </div><!--$--><!--/$-->
     <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text"
         aria-atomic="false"></section>
+        
+<script>
+  const openBtn = document.getElementById('depositBtn');
+  const modal = document.getElementById('depositModal');
+  const overlay = document.getElementById('overlay');
+  const closeBtn = document.getElementById('closeModal');
+//   const modalFunds = document.getElementById('modalFunds');
+
+  openBtn.addEventListener('click', () => {
+    modal.classList.remove('hidden');
+    overlay.classList.remove('hidden');
+  });
+
+//   modalFunds.addEventListener('click', () => {
+//     modal.classList.remove('hidden');
+//     overlay.classList.remove('hidden');
+//   });
+
+  closeBtn.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+  });
+
+  overlay.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+  });
+</script>
     <script>addEventListener("submit", function (a) { if (!a.defaultPrevented) { var c = a.target, d = a.submitter, e = c.action, b = d; if (d) { var f = d.getAttribute("formAction"); null != f && (e = f, b = null) } "javascript:throw new Error('React form unexpectedly submitted.')" === e && (a.preventDefault(), b ? (a = document.createElement("input"), a.name = b.name, a.value = b.value, b.parentNode.insertBefore(a, b), b = new FormData(c), a.parentNode.removeChild(a)) : b = new FormData(c), a = c.ownerDocument || c, (a.$$reactFormReplay = a.$$reactFormReplay || []).push(c, d, b)) } });</script>
     <!-- <script src="/_next/static/chunks/webpack-e9eeb70add131ae6.js?dpl=dpl_8tBpjrrESCpJcEewtMT4BwfTQZJG"
         async=""></script> -->
