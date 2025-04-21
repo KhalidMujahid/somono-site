@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" class="__className_1b340f" data-sentry-component="RootLayout" data-sentry-source-file="layout.tsx">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="preload" as="image"
+        imageSrcSet="https://app.sonomo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmstile-144x144.da829ea8.png&amp;w=32&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmstile-144x144.da829ea8.png&amp;w=64&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 2x" />
+    <link rel="preload" as="image"
+        imageSrcSet="https://app.sonomo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.a034fb1b.png&amp;w=256&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.a034fb1b.png&amp;w=384&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 2x" />
+    <link rel="stylesheet" href="https://app.sonomo.com/_next/static/css/f477b34653670a90.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        data-precedence="next" />
+    <link rel="stylesheet" href="https://app.sonomo.com/_next/static/css/420ab045638a02b3.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        data-precedence="next" />
+    <link rel="stylesheet" href="https://app.sonomo.com/_next/static/css/f0512607c6ebc29c.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        data-precedence="next" />
+    <link rel="preload" as="script" fetchPriority="low"
+        href="https://app.sonomo.com/_next/static/chunks/webpack-9ca2226de6fb57c1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" />
+    <script src="https://app.sonomo.com/_next/static/chunks/5525de0c-e43785a985d65a71.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/0fd5ba58-4382585cebe2a052.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/280-b8411499db3fd3a3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/main-app-d9ffa26a2f2f7041.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/app/global-error-740d607e68154fd6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/app/error-fd8f785382c12bfc.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script
+        src="https://app.sonomo.com/_next/static/chunks/app/(investor)/profile/my/page-b7b897b53e925df1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/3244-e3042c8184da8dd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/app/(onboarding)/layout-92d1097ce066f33c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/6230-76b5d39ab5874af5.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/6965-ac51e1b5809689b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/5077-0acc38c755550064.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script
+        src="https://app.sonomo.com/_next/static/chunks/app/(investor)/profile/my/edit/page-09e1c25292d432f6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/1279-57e28afc2999ed96.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/9089-a5c3a0bb876bd66b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/4118-e5265a89a204d004.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/6220-7307e1f8bbbbd51d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script src="https://app.sonomo.com/_next/static/chunks/1020-71d5c52b1ff69ff3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" async=""></script>
+    <script
+        src="https://app.sonomo.com/_next/static/chunks/app/(investor)/profile/my/layout-101a434334299872.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script>
+    <meta name="next-size-adjust" content="" />
+    <meta name="theme-color" content="#ECF2FA" />
+    <title>Sonomo</title>
+    <meta name="description" content="Invest in Music" />
+    <link rel="manifest" href="https://app.sonomo.com/site.webmanifest" />
+    <link rel="icon" href="https://app.sonomo.com/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="https://app.sonomo.com/apple-touch-icon.png" />
+    <script>document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el))</script>
+    <meta name="sentry-trace" content="95c43b51cc3c1db534bc22da0bbdb9e6-788ac3ba36568b41-1" />
+    <meta name="baggage"
+        content="sentry-environment=vercel-production,sentry-release=e0f8728d607c0a1075415ce6203af56a4c17eae2,sentry-public_key=98eeb4e9449c4850a22cad5bff48ee3f,sentry-trace_id=95c43b51cc3c1db534bc22da0bbdb9e6,sentry-transaction=GET%20%2Fprofile%2Fmy%2Fedit,sentry-sampled=true,sentry-sample_rand=0.24646079544898725,sentry-sample_rate=1" />
+    <script src="https://app.sonomo.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        noModule=""></script>
+</head>
+
+<body><!--$--><!--/$-->
+    <div class="flex min-h-lvh flex-col">
+        <div data-sentry-component="InvestorNavbar" data-sentry-source-file="Navbar.tsx">
+            <div class="border-b border-neutral-100 bg-white">
+                <div class="mx-auto px-4 xl:px-0 max-w-7xl">
+                    <div class="flex h-14 items-center justify-between lg:h-16">
+                        <div class="relative lg:hidden"><a data-sentry-element="NextLink"
+                                data-sentry-source-file="Link.tsx" data-sentry-component="Link"
+                                href="/investor/dashboard"><img alt="Sonomo Logo Icon" data-sentry-element="Image"
+                                    data-sentry-source-file="Navbar.tsx" width="32" height="32" decoding="async"
+                                    data-nimg="1" style="color:transparent"
+                                    srcSet="https://app.sonomo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmstile-144x144.da829ea8.png&amp;w=32&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmstile-144x144.da829ea8.png&amp;w=64&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 2x"
+                                    src="https://app.sonomo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmstile-144x144.da829ea8.png&amp;w=64&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" /></a>
+                        </div>
+                        <div class="relative text-support-light outline-none lg:hidden"><button
+                                class="btn-base btn-ghost size-10" data-sentry-element="Button"
+                                data-sentry-source-file="MenuMobile.tsx" type="button" aria-haspopup="dialog"
+                                aria-expanded="false" aria-controls="radix-«R6ln6bb»" data-state="closed"
+                                data-slot="sheet-trigger" data-sentry-component="SheetTrigger"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-menu" data-sentry-element="MenuIcon"
+                                    data-sentry-source-file="MenuMobile.tsx">
+                                    <line x1="4" x2="20" y1="12" y2="12"></line>
+                                    <line x1="4" x2="20" y1="6" y2="6"></line>
+                                    <line x1="4" x2="20" y1="18" y2="18"></line>
+                                </svg></button></div>
+                        <div class="hidden items-center gap-8 lg:flex"><a class="relative"
+                                data-sentry-element="NextLink" data-sentry-source-file="Link.tsx"
+                                data-sentry-component="Link" href="/investor/dashboard"><img alt="Sonomo Logo"
+                                    data-sentry-element="Image" data-sentry-source-file="Navbar.tsx" width="160"
+                                    height="24" decoding="async" data-nimg="1" style="color:transparent"
+                                    srcSet="https://app.sonomo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.a034fb1b.png&amp;w=256&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.a034fb1b.png&amp;w=384&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ 2x"
+                                    src="https://app.sonomo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.a034fb1b.png&amp;w=384&amp;q=100&amp;dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ" /></a>
+                            <nav class="flex items-center divide-x divide-neutral-100">
+                                <ul class="flex items-center gap-4 pr-2">
+                                    <li><a class="flex cursor-pointer items-center gap-1 rounded p-2 font-regular hover:bg-light-blue-app"
+                                            data-sentry-element="NextLink" data-sentry-component="Link"
+                                            data-sentry-source-file="Link.tsx" href="/investor/dashboard">Dashboard</a>
+                                    </li>
+                                    <li><a class="flex cursor-pointer items-center gap-1 rounded p-2 font-regular hover:bg-light-blue-app"
+                                            data-sentry-element="NextLink" data-sentry-component="Link"
+                                            data-sentry-source-file="Link.tsx" href="/investor/portfolio">Portfolio</a>
+                                    </li>
+                                    <li><a class="flex cursor-pointer items-center gap-1 rounded p-2 font-regular hover:bg-light-blue-app"
+                                            data-sentry-element="NextLink" data-sentry-component="Link"
+                                            data-sentry-source-file="Link.tsx" href="/investor/orders">Orders</a></li>
+                                    <li><a class="flex cursor-pointer items-center gap-1 rounded p-2 font-regular hover:bg-light-blue-app"
+                                            data-sentry-element="NextLink" data-sentry-component="Link"
+                                            data-sentry-source-file="Link.tsx"
+                                            href="/investor/royalty-payouts">Royalties</a></li>
+                                    <li><a class="flex cursor-pointer items-center gap-1 rounded p-2 font-regular hover:bg-light-blue-app"
+                                            data-sentry-element="NextLink" data-sentry-component="Link"
+                                            data-sentry-source-file="Link.tsx"
+                                            href="/investor/trading-profit-loss">Trading P&amp;L</a></li>
+                                    <li><a class="flex cursor-pointer items-center gap-1 rounded p-2 font-regular hover:bg-light-blue-app"
+                                            data-sentry-element="NextLink" data-sentry-component="Link"
+                                            data-sentry-source-file="Link.tsx" href="/wallet">Wallet</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="hidden items-center gap-4 lg:flex"><button class="btn-base btn-primary px-3 py-2"
+                                type="button" aria-haspopup="dialog" aria-expanded="false"
+                                aria-controls="radix-«Rqln6bb»" data-state="closed" data-slot="drawer-trigger"
+                                data-sentry-element="DrawerPrimitive.Trigger" data-sentry-source-file="drawer.tsx"
+                                data-sentry-component="DrawerTrigger">Deposit funds</button><button
+                                class="btn-base btn-outline px-3 py-2" data-sentry-element="Button"
+                                data-sentry-source-file="Navbar.tsx" type="button" aria-haspopup="dialog"
+                                aria-expanded="false" aria-controls="radix-«R1aln6bb»" data-state="closed"
+                                data-slot="drawer-trigger" data-sentry-component="DrawerTrigger">Invite a
+                                friend</button><button type="button" id="radix-«R1qln6bb»" aria-haspopup="menu"
+                                aria-expanded="false" data-state="closed" class="relative shrink-0"
+                                data-sentry-element="DropdownMenuTrigger" data-sentry-source-file="MenuDesktop.tsx"><img
+                                    referrerPolicy="no-referrer" alt="test test" data-sentry-element="ImageUser"
+                                    data-sentry-source-file="MenuDesktop.tsx" width="38" height="38" decoding="async"
+                                    data-nimg="1" class="w-full rounded-full border border-v2-app-blue object-cover"
+                                    style="color:transparent;width:38px;height:38px"
+                                    src="#" /></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="flex-1">
+            <div class="absolute left-1/2 top-4 max-w-[50%] -translate-x-1/2 truncate md:hidden"
+                data-sentry-component="HackyPageTitle" data-sentry-source-file="HackyPageTitle.tsx">test test</div>
+            <div class="mx-auto size-full p-4 max-w-7xl">
+                <div class="mt-4 flex flex-col md:grid md:grid-cols-12 md:gap-8">
+                    <div class="col-span-12 flex flex-col items-center gap-4 md:col-span-4">
+                        <div class="w-full space-y-8" data-sentry-component="EditProfile"
+                            data-sentry-source-file="EditProfile.tsx">
+                            <div class="flex items-center justify-center" data-sentry-component="ProfileImageUpload"
+                                data-sentry-source-file="index.tsx">
+                                <div class="relative w-[128px]"><img alt="test test" data-sentry-element="Image"
+                                        data-sentry-source-file="index.tsx" loading="lazy" width="128" height="128"
+                                        decoding="async" data-nimg="1"
+                                        class="size-[128px] rounded-full border border-neutral-200"
+                                        style="color:transparent"
+                                        srcSet="/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocLYLKLWLmlLHjh7oIyMajPX78yKbh6-sIM45PHcBTK15E8DeyYb%3Ds96-c&amp;w=128&amp;q=75 1x, /_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocLYLKLWLmlLHjh7oIyMajPX78yKbh6-sIM45PHcBTK15E8DeyYb%3Ds96-c&amp;w=256&amp;q=75 2x"
+                                        src="/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocLYLKLWLmlLHjh7oIyMajPX78yKbh6-sIM45PHcBTK15E8DeyYb%3Ds96-c&amp;w=256&amp;q=75" /><button
+                                        class="btn-outline absolute -bottom-1 -right-2 bg-white px-2 py-1 text-caption shadow">Update</button><input
+                                        class="hidden" type="file" accept="image/*" /><canvas
+                                        style="display:none"></canvas></div>
+                            </div>
+                            <div class="w-full">
+                                <div dir="ltr" data-orientation="horizontal" data-sentry-element="Tabs.Root"
+                                    data-sentry-source-file="EditProfile.tsx">
+                                    <div role="tablist" aria-orientation="horizontal" aria-label="Create and order"
+                                        class="tab-list--primary" data-sentry-element="Tabs.List"
+                                        data-sentry-source-file="EditProfile.tsx" tabindex="-1"
+                                        data-orientation="horizontal" style="outline:none"><button type="button"
+                                            role="tab" aria-selected="true"
+                                            aria-controls="radix-«R8urbn5n6bb»-content-PROFILE" data-state="active"
+                                            id="radix-«R8urbn5n6bb»-trigger-PROFILE" class="tab-trigger--primary"
+                                            data-sentry-element="Tabs.Trigger" data-sentry-source-file="EditProfile.tsx"
+                                            tabindex="-1" data-orientation="horizontal"
+                                            data-radix-collection-item="">Profile</button><button type="button"
+                                            role="tab" aria-selected="false"
+                                            aria-controls="radix-«R8urbn5n6bb»-content-INFO" data-state="inactive"
+                                            id="radix-«R8urbn5n6bb»-trigger-INFO" class="tab-trigger--primary"
+                                            data-sentry-element="Tabs.Trigger" data-sentry-source-file="EditProfile.tsx"
+                                            tabindex="-1" data-orientation="horizontal"
+                                            data-radix-collection-item="">Personal Info</button></div>
+                                    <div data-state="active" data-orientation="horizontal" role="tabpanel"
+                                        aria-labelledby="radix-«R8urbn5n6bb»-trigger-PROFILE"
+                                        id="radix-«R8urbn5n6bb»-content-PROFILE" tabindex="0"
+                                        class="tab-content--primary" data-sentry-element="Tabs.Content"
+                                        data-sentry-source-file="EditProfile.tsx" style="animation-duration:0s">
+                                        <form class="flex flex-col space-y-8" noValidate=""
+                                            data-sentry-component="ProfileForm"
+                                            data-sentry-source-file="ProfileForm.tsx">
+                                            <div class="space-y-6">
+                                                <div class="w-full" data-sentry-component="FormInputSkeleton"
+                                                    data-sentry-source-file="FormInputSkeleton.tsx"><label for="email"
+                                                        class="input-label" data-sentry-component="Label"
+                                                        data-sentry-source-file="Label.tsx">Email</label>
+                                                    <div class="mb-1">
+                                                        <div class="relative mt-1 rounded-md"><input type="email"
+                                                                disabled="" data-sentry-element="Input"
+                                                                data-sentry-source-file="ProfileForm.tsx" class="input"
+                                                                value="binkhalid267@gmail.com" /></div>
+                                                    </div>
+                                                </div>
+                                                <div><label
+                                                        class="mb-2.5 font-regular leading-normal text-support-main peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                                        for="bio" data-sentry-element="Label"
+                                                        data-sentry-source-file="ProfileForm.tsx">Bio</label><textarea
+                                                        class="input h-auto" rows="4" id="bio"
+                                                        placeholder="Tell us about yourself" name="bio"
+                                                        data-sentry-element="Textarea"
+                                                        data-sentry-source-file="ProfileForm.tsx"></textarea></div>
+                                                <div class="space-y-6">
+                                                    <div>
+                                                        <div class="w-full" data-sentry-component="FormInputSkeleton"
+                                                            data-sentry-source-file="FormInputSkeleton.tsx"><label
+                                                                for="socials.linkedin" class="input-label"
+                                                                data-sentry-component="Label"
+                                                                data-sentry-source-file="Label.tsx">LinkedIn</label>
+                                                            <div class="mb-1">
+                                                                <div class="relative mt-1 rounded-md">
+                                                                    <div
+                                                                        class="pointer-events-none absolute left-0 top-1/2 flex -translate-y-1/2 items-center pl-3">
+                                                                        <span class="text-neutral-400"><svg width="1em"
+                                                                                height="1em"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                preserveAspectRatio="xMidYMid"
+                                                                                viewBox="0 0 256 256" class="size-4"
+                                                                                data-sentry-element="svg"
+                                                                                data-sentry-component="LinkedInIcon"
+                                                                                data-sentry-source-file="Socials.tsx">
+                                                                                <path
+                                                                                    d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.907 39.907 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186l-.016 67.013ZM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009-.002-12.157 9.851-22.014 22.008-22.016 12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97v122.16ZM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453"
+                                                                                    fill="#0A66C2"
+                                                                                    data-sentry-element="path"
+                                                                                    data-sentry-source-file="Socials.tsx">
+                                                                                </path>
+                                                                            </svg></span></div><input
+                                                                        id="socials.linkedin" type="url"
+                                                                        class="input pl-8" name="socials.linkedin" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-state="closed" data-sentry-element="Collapsible.Root"
+                                                        data-sentry-source-file="ProfileForm.tsx">
+                                                        <div data-state="closed" id="radix-«Rmmourbn5n6bb»" hidden=""
+                                                            class="space-y-4" data-sentry-element="Collapsible.Content"
+                                                            data-sentry-source-file="ProfileForm.tsx"></div><button
+                                                            type="button" aria-controls="radix-«Rmmourbn5n6bb»"
+                                                            aria-expanded="false" data-state="closed" class="btn-link"
+                                                            data-sentry-element="Collapsible.Trigger"
+                                                            data-sentry-source-file="ProfileForm.tsx">Add other
+                                                            profiles</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="space-y-4">
+                                                <h5 class="text-subtitle1">Privacy</h5>
+                                                <div class="space-y-6">
+                                                    <div class="flex items-start gap-4" data-sentry-component="Switch"
+                                                        data-sentry-source-file="Switch.tsx"><button type="button"
+                                                            role="switch" aria-checked="false" data-state="unchecked"
+                                                            value="on" class="switch-root" id="settings.privateProfile"
+                                                            data-sentry-element="BaseSwitch.Root"
+                                                            data-sentry-source-file="Switch.tsx"><span
+                                                                data-state="unchecked" class="switch-thumb"
+                                                                data-sentry-element="BaseSwitch.Thumb"
+                                                                data-sentry-source-file="Switch.tsx"></span></button><input
+                                                            type="checkbox" aria-hidden="true"
+                                                            style="transform:translateX(-100%);position:absolute;pointer-events:none;opacity:0;margin:0"
+                                                            tabindex="-1" value="on" />
+                                                        <div class="text-subtitle2 space-y-1 text-support-light"><label
+                                                                class="mb-0 cursor-pointer"
+                                                                for="settings.privateProfile">Disable my public profile
+                                                                page</label></div>
+                                                    </div>
+                                                    <div class="flex items-start gap-4" data-sentry-component="Switch"
+                                                        data-sentry-source-file="Switch.tsx"><button type="button"
+                                                            role="switch" aria-checked="false" data-state="unchecked"
+                                                            value="on" class="switch-root" id="settings.anonymousOrders"
+                                                            data-sentry-element="BaseSwitch.Root"
+                                                            data-sentry-source-file="Switch.tsx"><span
+                                                                data-state="unchecked" class="switch-thumb"
+                                                                data-sentry-element="BaseSwitch.Thumb"
+                                                                data-sentry-source-file="Switch.tsx"></span></button><input
+                                                            type="checkbox" aria-hidden="true"
+                                                            style="transform:translateX(-100%);position:absolute;pointer-events:none;opacity:0;margin:0"
+                                                            tabindex="-1" value="on" />
+                                                        <div class="text-subtitle2 space-y-1 text-support-light"><label
+                                                                class="mb-0 cursor-pointer"
+                                                                for="settings.anonymousOrders">Buy anonymously</label>
+                                                            <p class="text-body2 text-support-light">When enabled, your
+                                                                name &amp; profile picture won&#x27;t appear in the
+                                                                public list of asset owners for any future orders.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex flex-col items-center justify-center gap-8 pt-8 md:flex-row">
+                                                <button type="submit"
+                                                    class="btn-primary relative px-10 transition-all">Save</button>
+                                            </div>
+                                        </form><button class="btn-link mx-auto mt-4 block">cancel</button>
+                                    </div>
+                                    <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+                                        aria-labelledby="radix-«R8urbn5n6bb»-trigger-INFO" hidden=""
+                                        id="radix-«R8urbn5n6bb»-content-INFO" tabindex="0" class="tab-content--primary"
+                                        data-sentry-element="Tabs.Content" data-sentry-source-file="EditProfile.tsx">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--$--><!--/$--><!--$--><!--/$-->
+                    </div>
+                    <div class="mb-4 mt-8 h-px w-full bg-neutral-100 md:hidden"></div>
+                    <div class="col-span-12 space-y-4 md:col-span-8">
+                        <div class="grid grid-cols-1 gap-4 md:grid-cols-3" data-sentry-component="ProfileStats"
+                            data-sentry-source-file="ProfileStats.tsx">
+                            <div class="relative flex isolate size-full flex-col gap-2 p-3 md:p-4 bg-gradient-to-tl from-v2-app-blue to-v2-app-blue/80 text-v2-primary-main rounded border-2 border-v2-app-blue h-auto"
+                                data-sentry-component="NewStat" data-sentry-source-file="NewStat.tsx">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-v2-descriptor font-regular md:text-v2-body line-clamp-1"
+                                        data-sentry-component="Title" data-sentry-source-file="NewStat.tsx">Historical
+                                        Yield</div>
+                                    <div class="absolute top-2 right-2"><button type="button" aria-haspopup="dialog"
+                                            aria-expanded="false" aria-controls="radix-«Rhfbn5n6bb»" data-state="closed"
+                                            tabindex="-1" class="p-1 text-primary-main"
+                                            data-sentry-element="PopoverTrigger"
+                                            data-sentry-source-file="InfoButton.tsx"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-info" data-sentry-element="Info"
+                                                data-sentry-source-file="InfoButton.tsx">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <path d="M12 16v-4"></path>
+                                                <path d="M12 8h.01"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="grid grid-flow-col-dense gap-4">
+                                    <div class="flex items-center justify-between">
+                                        <div class="font-semibold text-v2-subheading">0.00%</div>
+                                    </div>
+                                </div>
+                                <div class="absolute -left-[2px] -right-[2px] bottom-0 -z-10"><!--$?--><template
+                                        id="B:0"></template><!--/$--></div>
+                                <div class="!text-v2-caption text-support-light" data-sentry-component="Subtitle"
+                                    data-sentry-source-file="NewStat.tsx">Annualized return on received royalties</div>
+                            </div>
+                        </div>
+                        <div class="relative bg-white py-6" data-sentry-component="BaseCard"
+                            data-sentry-source-file="BaseCard.tsx">
+                            <div class="mb-6 flex flex-wrap items-center justify-between">
+                                <div class="space-y-1 md:space-y-2">
+                                    <h5 class="text-h6 text-support-dark md:text-h5">Top Contributing Assets</h5>
+                                    <p class="text-body2 text-support-light">The top contributing assets by expected
+                                        revenue for the current month</p>
+                                </div>
+                            </div>
+                            <div class="grid gap-y-4 md:grid-cols-2 md:gap-x-12"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section class="xl:p-0 bg-v2-app-blue/50" data-sentry-element="PageSection" data-sentry-component="Footer"
+            data-sentry-source-file="Footer.tsx">
+            <div data-state="open" class="group">
+                <div
+                    class="mx-auto p-4 xl:px-0 max-w-7xl group:radix-state-closed:!py-0 group:radix-state-closed:!px-0">
+                    <div data-state="open" id="radix-«R1ln6bb»">
+                        <div
+                            class="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-start">
+                            <p class="line-clamp-1 text-v2-caption font-regular"><span class="md:hidden"> Sonomo B.V.,
+                                    Amsterdam, Netherlands.</span><span class="hidden md:inline">Sonomo B.V.,
+                                    Prinsengracht 769, 1017 JZ Amsterdam, Netherlands</span></p>
+                            <div class="hidden items-center gap-8 text-v2-descriptor md:flex"><button
+                                    class="btn-base btn-link shadow-none text-v2-caption underline"
+                                    data-sentry-element="Button" data-sentry-source-file="NeedHelpButton.tsx"
+                                    data-sentry-component="NeedHelpButton">Need Help?</button><a
+                                    class="btn-link text-v2-caption underline"
+                                    href="https://www.sonomo.com/terms-and-conditions" target="_blank"
+                                    rel="noreferrer">Terms &amp; Conditions</a><a
+                                    class="btn-link text-v2-caption underline"
+                                    href="https://www.sonomo.com/privacy-policy" target="_blank"
+                                    rel="noreferrer">Privacy Policy</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div hidden=""
+        class="sticky inset-x-0 bottom-0 h-24 w-full animate-slideUp rounded-none bg-[#282828] py-2 will-change-transform"
+        data-sentry-component="Player" data-sentry-source-file="index.tsx">
+        <div class="mx-auto flex  max-w-7xl items-center justify-center px-4 sm:px-6 lg:px-8"><button
+                class="absolute -top-3 right-0 rounded-full bg-[#282828] text-h5 text-white shadow-none drop-shadow xl:right-8 xl:top-auto xl:text-h6"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-circle-x xl:hidden" data-sentry-element="XCircle"
+                    data-sentry-source-file="index.tsx">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m15 9-6 6"></path>
+                    <path d="m9 9 6 6"></path>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-x hidden xl:inline-block" data-sentry-element="X"
+                    data-sentry-source-file="index.tsx">
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                </svg></button></div>
+    </div><!--$--><!--/$-->
+    <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text"
+        aria-atomic="false"></section>
+    <!-- <script src="/_next/static/chunks/webpack-9ca2226de6fb57c1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ"
+        async=""></script> -->
+    <script>(self.__next_f = self.__next_f || []).push([0])</script>
+    <script>self.__next_f.push([1, "1:\"$Sreact.fragment\"\n4:I[57836,[],\"\"]\n5:I[26042,[],\"\"]\n8:I[29948,[],\"MetadataBoundary\"]\na:I[29948,[],\"OutletBoundary\"]\nd:I[36052,[],\"AsyncMetadataOutlet\"]\nf:I[29948,[],\"ViewportBoundary\"]\n11:I[44364,[\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4219\",\"static/chunks/app/global-error-740d607e68154fd6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n12:\"$Sreact.suspense\"\n13:I[36052,[],\"AsyncMetadata\"]\n15:I[78888,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"NuqsAdapter\"]\n16:I[11309,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chun"])</script>
+    <script>self.__next_f.push([1, "ks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"PostHogProvider\"]\n17:I[87579,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n18:I[94113,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c"])</script>
+    <script>self.__next_f.push([1, "157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n19:I[33462,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n1a:I[12909,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmb"])</script>
+    <script>self.__next_f.push([1, "ZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"GoogleOAuthProvider\"]\n1b:I[91648,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"ApiConfigProvider\"]\n1c:I[31301,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89"])</script>
+    <script>self.__next_f.push([1, "Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n1d:I[32366,[\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8039\",\"static/chunks/app/error-fd8f785382c12bfc.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n1e:I[2259,[\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5053\",\"static/chunks/app/(investor)/profile/my/page-b7b897b53e925df1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n1f:I[85538,[\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9"])</script>
+    <script>self.__next_f.push([1, "v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5053\",\"static/chunks/app/(investor)/profile/my/page-b7b897b53e925df1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"Image\"]\n20:I[63303,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"NavigationEvents\"]\n21:I[84933,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9"])</script>
+    <script>self.__next_f.push([1, "v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"SpeedInsights\"]\n22:I[39731,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"Toaster\"]\n23:I[18059,[\"3830\",\"static/chunks/e5d3d817-bdd749d48823321d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\""])</script>
+    <script>self.__next_f.push([1, "4560\",\"static/chunks/4560-9c67409c922beef3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2051\",\"static/chunks/2051-65c17460fc2ed306.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3671\",\"static/chunks/3671-1f3a3088d3112680.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7177\",\"static/chunks/app/layout-47a167c410061d3d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n24:I[21962,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3244\",\"static/chunks/3244-e3042c8184da8dd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3636\",\"static/chunks/app/(onboarding)/layout-92d1097ce066f33c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"AuthProvider\"]\n"])</script>
+    <script>self.__next_f.push([1, "26:I[49861,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5989\",\"static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7575\",\"static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2992\",\"static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5991\",\"static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4999\",\"static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8894\",\"static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1623\",\"static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"PlayerProvider\"]\n"])</script>
+    <script>self.__next_f.push([1, "27:I[68084,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5989\",\"static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7575\",\"static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2992\",\"static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5991\",\"static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4999\",\"static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8894\",\"static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1623\",\"static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n"])</script>
+    <script>self.__next_f.push([1, "28:I[87052,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5989\",\"static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7575\",\"static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2992\",\"static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5991\",\"static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4999\",\"static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8894\",\"static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1623\",\"static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"Collapsible\"]\n"])</script>
+    <script>self.__next_f.push([1, "29:I[87052,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5989\",\"static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7575\",\"static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2992\",\"static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5991\",\"static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4999\",\"static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8894\",\"static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1623\",\"static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"CollapsibleContent\"]\n"])</script>
+    <script>self.__next_f.push([1, "2a:I[22759,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5989\",\"static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7575\",\"static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2992\",\"static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5991\",\"static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4999\",\"static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8894\",\"static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1623\",\"static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"NeedHelpButton\"]\n"])</script>
+    <script>self.__next_f.push([1, "2b:I[31605,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9945\",\"static/chunks/9945-32c482fbd84f41d1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5989\",\"static/chunks/5989-3fcacedb0402719b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7575\",\"static/chunks/7575-26286f17d4d8cbd1.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2992\",\"static/chunks/2992-10f7e91681680693.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5991\",\"static/chunks/5991-64ce477f5fd5e089.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4999\",\"static/chunks/4999-91245ac7fa59dbe6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8894\",\"static/chunks/8894-5d9bc0bc0f5c00bb.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1623\",\"static/chunks/app/(investor)/layout-5f8dc5894e5a7548.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n"])</script>
+    <script>self.__next_f.push([1, ":HL[\"/_next/static/media/3534416bbfdcc9be-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/f477b34653670a90.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"style\"]\n:HL[\"/_next/static/css/420ab045638a02b3.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"style\"]\n:HL[\"/_next/static/css/f0512607c6ebc29c.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"style\"]\n"])</script>
+    <script>self.__next_f.push([1, "0:{\"P\":null,\"b\":\"vqUFZha5bqJxZ46GSOLYk\",\"p\":\"\",\"c\":[\"\",\"profile\",\"my\",\"edit\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(investor)\",{\"children\":[\"profile\",{\"children\":[\"my\",{\"children\":[\"edit\",{\"children\":[\"__PAGE__\",{}]}]}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/f477b34653670a90.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/420ab045638a02b3.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/f0512607c6ebc29c.css?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(investor)\",[\"$\",\"$1\",\"c\",{\"children\":[null,\"$L3\"]}],{\"children\":[\"profile\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"my\",[\"$\",\"$1\",\"c\",{\"children\":[null,\"$L6\"]}],{\"children\":[\"edit\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L7\",[\"$\",\"$L8\",null,{\"children\":\"$L9\"}],null,[\"$\",\"$La\",null,{\"children\":[\"$Lb\",\"$Lc\",[\"$\",\"$Ld\",null,{\"promise\":\"$@e\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"0bsf2_tOa9l1fVaQrOHqr\",{\"children\":[[\"$\",\"$Lf\",null,{\"children\":\"$L10\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$11\",[]],\"s\":false,\"S\":false}\n"])</script>
+    <script>self.__next_f.push([1, "9:[\"$\",\"$12\",null,{\"fallback\":null,\"children\":[\"$\",\"$L13\",null,{\"promise\":\"$@14\"}]}]\nc:null\n"])</script>
+    <script>self.__next_f.push([1, "2:[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"__className_1b340f\",\"data-sentry-component\":\"RootLayout\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[[\"$\",\"body\",null,{\"children\":[\"$\",\"$L15\",null,{\"data-sentry-element\":\"NuqsAdapter\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[[\"$\",\"$L16\",null,{\"data-sentry-element\":\"PostHogProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[[\"$\",\"$L17\",null,{\"data-sentry-element\":\"IntlProviderPatch\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$\",\"$L18\",null,{\"timezone\":\"Africa/Lagos\",\"data-sentry-element\":\"TimezoneProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$\",\"$L19\",null,{\"data-sentry-element\":\"TooltipProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$\",\"$L1a\",null,{\"clientId\":\"250987939744-vanl93pi9clooplrvkruad811dgt5i1j.apps.googleusercontent.com\",\"data-sentry-element\":\"GoogleOAuthProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$\",\"$L1b\",null,{\"impersonationId\":\"$undefined\",\"data-sentry-element\":\"ApiConfigProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$undefined\",[\"$\",\"$L1c\",null,{\"data-sentry-element\":\"PageTransitionProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$1d\",\"errorStyles\":[],\"errorScripts\":[],\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"div\",null,{\"className\":\"flex min-h-screen flex-col bg-white pb-12 pt-16\",\"data-sentry-component\":\"ErrorPageSkeleton\",\"data-sentry-source-file\":\"ErrorPageSkeleton.tsx\",\"children\":[[\"$\",\"main\",null,{\"className\":\"mx-auto flex w-full max-w-7xl grow flex-col justify-center px-4 sm:px-6 lg:px-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex shrink-0 justify-center\",\"children\":[\"$\",\"$L1e\",null,{\"href\":{\"pathname\":\"/\"},\"legacyBehavior\":true,\"data-sentry-element\":\"Link\",\"data-sentry-source-file\":\"ErrorPageSkeleton.tsx\",\"children\":[\"$\",\"a\",null,{\"children\":[\"$\",\"$L1f\",null,{\"alt\":\"Sonomo Logo\",\"src\":{\"src\":\"/_next/static/media/mstile-144x144.da829ea8.png\",\"height\":144,\"width\":144,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAP1BMVEX+/v6goKb+/v4dHS59fYeFhY7+/v7////29vb///86OkiLi5NOTlvl5eju7vAtLT3V1dhsbHZ4eIKenqVeXmk/ml2nAAAACnRSTlPt/v///v5S5f5R2xckEQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAD5JREFUeJwFwYcBgDAMAzDjFLLadMD/tyLhAc0Ih/LaXysF185Rp8AukisKFnNGdgNvkTiNUGZ/x1A4SBL+A0yrAhIIuJYkAAAAAElFTkSuQmCC\",\"blurWidth\":8,\"blurHeight\":8},\"width\":\"144\",\"height\":\"144\",\"data-sentry-element\":\"Image\",\"data-sentry-source-file\":\"ErrorPageSkeleton.tsx\"}]}]}]}],[\"$\",\"div\",null,{\"className\":\"space-y-4 text-center md:space-y-8\",\"children\":[[\"$\",\"p\",null,{\"className\":\"font-semibold uppercase tracking-wide text-support-light\",\"children\":[\"$\",\"code\",null,{\"children\":[\"Error \",\"404\"]}]}],[\"$\",\"h1\",null,{\"className\":\"text-h5 font-bold tracking-tight text-support-dark sm:text-h4\",\"children\":\"Page not found\"}],[\"$\",\"p\",null,{\"className\":\"text-subtitle2 text-support-dark md:text-h5\",\"children\":\"The page you are looking for does not exist\"}],[\"$\",\"div\",null,{\"className\":\"mt-8 flex flex-col items-center gap-4\",\"children\":[\"$undefined\",[\"$\",\"$L1e\",null,{\"href\":\"/\",\"className\":\"btn-primary\",\"data-sentry-element\":\"Link\",\"data-sentry-source-file\":\"ErrorPageSkeleton.tsx\",\"children\":\"Back to Dashboard\"}]]}]]}]]}],[\"$\",\"footer\",null,{\"className\":\"mx-auto w-full max-w-7xl shrink-0 px-4 sm:px-6 lg:px-8\",\"children\":[\"$\",\"nav\",null,{\"className\":\"flex justify-center space-x-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"mailto:support@sonomo.com\",\"className\":\"btn-link\",\"children\":\"Contact Support\"}]}]}]]}],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}]}]}]}]}],[\"$\",\"$L20\",null,{\"data-sentry-element\":\"NavigationEvents\",\"data-sentry-source-file\":\"layout.tsx\"}]]}],[\"$\",\"$L21\",null,{\"data-sentry-element\":\"SpeedInsights\",\"data-sentry-source-file\":\"layout.tsx\"}],[\"$\",\"$L22\",null,{\"data-sentry-element\":\"Toaster\",\"data-sentry-source-file\":\"layout.tsx\"}]]}]}],[\"$\",\"$L23\",null,{\"data-sentry-element\":\"ZendeskScript\",\"data-sentry-source-file\":\"layout.tsx\"}]]}]\n"])</script>
+    <script>self.__next_f.push([1, "25:T530,eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzA4MWNhOWNiYjM3YzIzNDk4ZGQzOTQzYmYzNzFhMDU4ODNkMjgiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoidGVzdCB0ZXN0IiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0xZTEtMV0xtbExIamg3b0l5TWFqUFg3OHlLYmg2LXNJTTQ1UEhjQlRLMTVFOERleVliPXM5Ni1jIiwicm9sZXMiOlsiSU5WRVNUT1IiXSwia3ljU3RhdHVzIjoiTk9UX1NUQVJURUQiLCJzdGFnZXMiOlsiUFJPRklMRV9DT01QTEVURUQiLCJJTlZFU1RPUl9BUFBST1ZFRCJdLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwic291cmNlX3NpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2VuY29yZS04ZjQyMiIsImF1ZCI6ImVuY29yZS04ZjQyMiIsImF1dGhfdGltZSI6MTc0NTI0NDc3OSwidXNlcl9pZCI6IlBaVzNKMmtzeXJYNUlvY21GU2t5b09CWTRMNzIiLCJzdWIiOiJQWlczSjJrc3lyWDVJb2NtRlNreW9PQlk0TDcyIiwiaWF0IjoxNzQ1MjQ0Nzc5LCJleHAiOjE3NDUyNDgzNzksImVtYWlsIjoiYmlua2hhbGlkMjY3QGdtYWlsLmNvbSIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDk1MzEzNjk3MjczODkyNTcyMTkiXSwiZW1haWwiOlsiYmlua2hhbGlkMjY3QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6ImN1c3RvbSJ9fQ.R_zsYf0VkssvCEPahDxDcwGJ1zm8MatrZkBzReA0X7KI4IuMWfeZElL2rDdrAz_18QgIvbo2tetwk6S3PLw8PKHWa680i8jfJTgV5xpJsrPYJA_WAJBQ1mX0HvZXzK67XfKT_XKKhhb148AYENG_w0Y3yooL1i8zfwl24_Kl8CchRJ7VxseKLUOvaJFadFv8mVyIDR9TOMd5F5v5pOEr4-cSucL4zfT4XVjf_LpwDs0t7Vb-HiGBoDLOwkmHsNv-SpdBXF7RigeIPn_SGDywk9ptREWAJVHbiCN-as4x1ulCeXG44abQ0R4ic-5UEAoB29zHY8NdIlolLQqPkXIsig"])</script>
+    <script>self.__next_f.push([1, "3:[\"$\",\"$L24\",null,{\"defaultTenant\":{\"IdToken\":\"$25\",\"id\":\"PZW3J2ksyrX5IocmFSkyoOBY4L72\",\"email\":\"binkhalid267@gmail.com\",\"photoURL\":\"https://lh3.googleusercontent.com/a/ACg8ocLYLKLWLmlLHjh7oIyMajPX78yKbh6-sIM45PHcBTK15E8DeyYb=s96-c\",\"displayName\":\"test test\",\"emailVerified\":true,\"claims\":{\"roles\":[\"INVESTOR\"],\"kycStatus\":\"NOT_STARTED\",\"stages\":[\"PROFILE_COMPLETED\",\"INVESTOR_APPROVED\"]}},\"data-sentry-element\":\"AuthProvider\",\"data-sentry-component\":\"LayoutInvestor\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[[\"$\",\"$L26\",null,{\"data-sentry-element\":\"PlayerProvider\",\"data-sentry-source-file\":\"layout.tsx\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex min-h-lvh flex-col\",\"children\":[[\"$\",\"$L27\",null,{\"data-sentry-element\":\"InvestorNavbar\",\"data-sentry-source-file\":\"layout.tsx\"}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}],[\"$\",\"section\",null,{\"className\":\"xl:p-0 bg-v2-app-blue/50\",\"ref\":\"$undefined\",\"data-sentry-element\":\"PageSection\",\"data-sentry-component\":\"Footer\",\"data-sentry-source-file\":\"Footer.tsx\",\"children\":[\"$\",\"$L28\",null,{\"className\":\"group\",\"defaultOpen\":true,\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto p-4 xl:px-0 max-w-7xl group:radix-state-closed:!py-0 group:radix-state-closed:!px-0\",\"children\":[\"$undefined\",[\"$\",\"$L29\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"line-clamp-1 text-v2-caption font-regular\",\"children\":[[\"$\",\"span\",null,{\"className\":\"md:hidden\",\"children\":\" Sonomo B.V., Amsterdam, Netherlands.\"}],[\"$\",\"span\",null,{\"className\":\"hidden md:inline\",\"children\":\"Sonomo B.V., Prinsengracht 769, 1017 JZ Amsterdam, Netherlands\"}]]}],[\"$\",\"div\",null,{\"className\":\"hidden items-center gap-8 text-v2-descriptor md:flex\",\"children\":[[\"$\",\"$L2a\",null,{\"variant\":\"link\",\"className\":\"text-v2-caption underline\",\"data-sentry-element\":\"NeedHelpButton\",\"data-sentry-source-file\":\"Footer.tsx\"}],[\"$\",\"a\",null,{\"className\":\"btn-link text-v2-caption underline\",\"href\":\"https://www.sonomo.com/terms-and-conditions\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"children\":\"Terms \u0026 Conditions\"}],[\"$\",\"a\",null,{\"className\":\"btn-link text-v2-caption underline\",\"href\":\"https://www.sonomo.com/privacy-policy\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"children\":\"Privacy Policy\"}]]}]]}]}]]}]}]}]]}]}],[\"$\",\"$L2b\",null,{\"data-sentry-element\":\"DepositSuccessModalSSR\",\"data-sentry-source-file\":\"layout.tsx\"}]]}]\n"])</script>
+    <script>self.__next_f.push([1, "10:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"content\":\"#ECF2FA\"}]]\nb:null\n14:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Sonomo\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Invest in Music\"}],[\"$\",\"link\",\"2\",{\"rel\":\"manifest\",\"href\":\"/site.webmanifest\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon-32x32.png\"}],[\"$\",\"link\",\"4\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-touch-icon.png\"}]],\"error\":null,\"digest\":\"$undefined\"}\ne:{\"metadata\":\"$14:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+    <script>self.__next_f.push([1, "2c:I[53378,[\"6339\",\"static/chunks/4a46aa52-91e627f01ab4cf3a.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4598\",\"static/chunks/b40eb9d9-bc37ca72fc096950.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9531\",\"static/chunks/9531-7483812fd0698b32.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5031\",\"static/chunks/5031-5e2a4bdafcc54717.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8297\",\"static/chunks/8297-b4c673b09f4bf07f.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9407\",\"static/chunks/9407-24c5ceb0316c806c.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9401\",\"static/chunks/9401-f65144328b3fd205.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1030\",\"static/chunks/1030-e372d9efc09730b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6230\",\"static/chunks/6230-76b5d39ab5874af5.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"116\",\"static/chunks/116-093a98a6574c8127.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6965\",\"static/chunks/6965-ac51e1b5809689b8.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5077\",\"static/chunks/5077-0acc38c755550064.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1354\",\"static/chunks/app/(investor)/profile/my/edit/page-09e1c25292d432f6.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n7:[\"$\",\"$L2c\",null,{\"profile\":{\"bio\":\"$undefined\",\"photo\":\"https://lh3.googleusercontent.com/a/ACg8ocLYLKLWLmlLHjh7oIyMajPX78yKbh6-sIM45PHcBTK15E8DeyYb=s96-c\",\"email\":\"binkhalid267@gmail.com\",\"userId\":\"PZW3J2ksyrX5IocmFSkyoOBY4L72\",\"claims\":{\"roles\":[\"INVESTOR\"],\"kycStatus\":\"NOT_STARTED\",\"stages\":[\"PROFILE_COMPLETED\",\"INVESTOR_APPROVED\"]},\"lastName\":\"test\",\"firstName\":\""])</script>
+    <script>self.__next_f.push([1, "test\",\"birthDate\":\"$D2007-04-02T00:00:00.000Z\",\"createdAt\":\"$D2025-04-12T07:27:13.296Z\",\"badges\":[],\"displayName\":\"test test\",\"phoneNumber\":\"+\",\"utmTags\":null,\"residenceCountry\":\"NG\",\"stripeCustomerId\":\"$undefined\",\"socials\":[]},\"data-sentry-element\":\"EditProfile\",\"data-sentry-component\":\"EditMyProfile\",\"data-sentry-source-file\":\"page.tsx\"}]\n6:[[\"$\",\"div\",null,{\"className\":\"absolute left-1/2 top-4 max-w-[50%] -translate-x-1/2 truncate md:hidden\",\"data-sentry-component\":\"HackyPageTitle\",\"data-sentry-source-file\":\"HackyPageTitle.tsx\",\"children\":\"test test\"}],[\"$\",\"div\",null,{\"className\":\"mx-auto size-full p-4 max-w-7xl\",\"children\":[\"$\",\"div\",null,{\"className\":\"mt-4 flex flex-col md:grid md:grid-cols-12 md:gap-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"col-span-12 flex flex-col items-center gap-4 md:col-span-4\",\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}],[\"$\",\"div\",null,{\"className\":\"mb-4 mt-8 h-px w-full bg-neutral-100 md:hidden\"}],[\"$\",\"div\",null,{\"className\":\"col-span-12 space-y-4 md:col-span-8\",\"children\":[\"$L2d\",\"$L2e\"]}]]}]}]]\n"])</script>
+    <script>self.__next_f.push([1, "2e:[\"$\",\"div\",null,{\"ref\":\"$undefined\",\"id\":\"$undefined\",\"className\":\"relative bg-white py-6\",\"style\":{},\"data-sentry-component\":\"BaseCard\",\"data-sentry-source-file\":\"BaseCard.tsx\",\"children\":[[\"$\",\"div\",null,{\"className\":\"mb-6 flex flex-wrap items-center justify-between\",\"children\":[[\"$\",\"div\",null,{\"className\":\"space-y-1 md:space-y-2\",\"children\":[[\"$\",\"h5\",null,{\"className\":\"text-h6 text-support-dark md:text-h5\",\"children\":\"Top Contributing Assets\"}],\"$undefined\",[\"$\",\"p\",null,{\"className\":\"text-body2 text-support-light\",\"children\":\"The top contributing assets by expected revenue for the current month\"}]]}],\"$undefined\"]}],[\"$\",\"div\",null,{\"className\":\"grid gap-y-4 md:grid-cols-2 md:gap-x-12\",\"children\":[]}]]}]\n"])</script>
+    <script>self.__next_f.push([1, "2f:I[1123,[\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1279\",\"static/chunks/1279-57e28afc2999ed96.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9089\",\"static/chunks/9089-a5c3a0bb876bd66b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4118\",\"static/chunks/4118-e5265a89a204d004.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6220\",\"static/chunks/6220-7307e1f8bbbbd51d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1020\",\"static/chunks/1020-71d5c52b1ff69ff3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4430\",\"static/chunks/app/(investor)/profile/my/layout-101a434334299872.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"EducationBox\"]\n2d:[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 gap-4 md:grid-cols-3\",\"data-sentry-component\":\"ProfileStats\",\"data-sentry-source-file\":\"ProfileStats.tsx\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative flex isolate size-full flex-col gap-2 p-3 md:p-4 bg-gradient-to-tl from-v2-app-blue to-v2-app-blue/80 text-v2-primary-main rounded border-2 border-v2-app-blue h-auto\",\"data-sentry-component\":\"NewStat\",\"data-sentry-source-file\":\"NewStat.tsx\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between\",\"children\":[[\"$\",\"div\",null,{\"className\":\"text-v2-descriptor font-regular md:text-v2-body line-clamp-1\",\"data-sentry-component\":\"Title\",\"data-sentry-source-file\":\"NewStat.tsx\",\"children\":\"Historical Yield\"}],[\"$\",\"div\",null,{\"className\":\"absolute top-2 right-2\",\"children\":[\"$\","])</script>
+    <script>self.__next_f.push([1, "\"$L2f\",null,{\"id\":\"myHistoricalYield\",\"data-sentry-element\":\"EducationBox\",\"data-sentry-source-file\":\"ProfileStats.tsx\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-flow-col-dense gap-4\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-semibold text-v2-subheading\",\"children\":\"0.00%\"}],null]}]}],[\"$\",\"div\",null,{\"className\":\"absolute -left-[2px] -right-[2px] bottom-0 -z-10\",\"children\":[\"$\",\"$12\",null,{\"data-sentry-element\":\"Suspense\",\"data-sentry-source-file\":\"ProfileStats.tsx\",\"children\":\"$L30\"}]}],[\"$\",\"div\",null,{\"className\":\"!text-v2-caption text-support-light\",\"data-sentry-component\":\"Subtitle\",\"data-sentry-source-file\":\"NewStat.tsx\",\"children\":\"Annualized return on received royalties\"}],null]}]}]\n"])</script>
+    <script>self.__next_f.push([1, "31:I[56208,[\"2418\",\"static/chunks/2418-68c741a5dc2d07ac.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"8622\",\"static/chunks/8622-63e064034229c157.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1625\",\"static/chunks/1625-3d6a612bcda01e62.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"5538\",\"static/chunks/5538-d291514d81a68e22.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4335\",\"static/chunks/4335-444b751aceb29696.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6074\",\"static/chunks/6074-105393e948ed975b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"3845\",\"static/chunks/3845-9485b67b93de2695.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"7840\",\"static/chunks/7840-530779cb2602811b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1279\",\"static/chunks/1279-57e28afc2999ed96.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"9089\",\"static/chunks/9089-a5c3a0bb876bd66b.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4118\",\"static/chunks/4118-e5265a89a204d004.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"6220\",\"static/chunks/6220-7307e1f8bbbbd51d.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"1020\",\"static/chunks/1020-71d5c52b1ff69ff3.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\",\"4430\",\"static/chunks/app/(investor)/profile/my/layout-101a434334299872.js?dpl=dpl_AM3DKSR9v1qYmbZWZgw89Go72diZ\"],\"default\"]\n30:[\"$\",\"$L31\",null,{\"data\":[],\"data-sentry-element\":\"RoyaltiesTrendChart\",\"data-sentry-component\":\"Chart\",\"data-sentry-source-file\":\"ProfileStats.tsx\"}]\n"])</script>
+    <div hidden id="S:0">
+        <div class="recharts-responsive-container" style="width:100%;height:50px;min-width:0"></div>
+    </div>
+    <script>$RC = function (b, c, e) { c = document.getElementById(c); c.parentNode.removeChild(c); var a = document.getElementById(b); if (a) { b = a.previousSibling; if (e) b.data = "$!", a.setAttribute("data-dgst", e); else { e = b.parentNode; a = b.nextSibling; var f = 0; do { if (a && 8 === a.nodeType) { var d = a.data; if ("/$" === d) if (0 === f) break; else f--; else "$" !== d && "$?" !== d && "$!" !== d || f++ } d = a.nextSibling; e.removeChild(a); a = d } while (a); for (; c.firstChild;)e.insertBefore(c.firstChild, a); b.data = "$" } b._reactRetry && b._reactRetry() } }; $RC("B:0", "S:0")</script>
+</body>
+
+</html>
